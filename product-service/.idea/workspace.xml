@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ca7052-882b-4642-96a2-32103dacdb46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/product/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/product/model/Product.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/product/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/product/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/product/vm/ProductVM.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/example/product/controller/ProductControllerIT.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/example/product/controller/ProductControllerUT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/example/product/service/ProductServiceIT.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/example/product/service/ProductServiceUT.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/example/product/controller/ProductControllerUT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/example/product/controller/ProductControllerUT.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -63,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/controller/ProductControllerUT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+            <state relative-caret-position="174">
+              <caret line="67" column="75" selection-start-line="67" selection-start-column="75" selection-end-line="67" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#858#859#0" expanded="true" />
@@ -358,7 +349,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProductControllerUT.processSubmittedProduct">
+  <component name="RunManager" selected="JUnit.ProductControllerUT">
     <configuration name="All in product-service.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="product-service.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -375,33 +366,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductControllerIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductControllerUT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="product-service.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.product.*" />
+          <option name="PATTERN" value="com.example.product.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.product.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.example.product.controller.ProductControllerIT" />
+      <option name="MAIN_CLASS_NAME" value="com.example.product.controller.ProductControllerUT" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductControllerIT.addProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="product-service.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.product.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.product.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.example.product.controller.ProductControllerIT" />
-      <option name="METHOD_NAME" value="addProduct" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -422,6 +397,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductControllerUT.processSubmittedProductReturnNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product-service.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.product.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.product.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.product.controller.ProductControllerUT" />
+      <option name="METHOD_NAME" value="processSubmittedProductReturnNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="product-service.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.product.ProductServiceApplication" />
@@ -431,11 +422,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductControllerUT" />
+        <item itemvalue="JUnit.ProductControllerUT.processSubmittedProductReturnNull" />
         <item itemvalue="JUnit.ProductControllerUT.processSubmittedProduct" />
         <item itemvalue="JUnit.All in product-service.test" />
         <item itemvalue="JUnit.All in product-service.test (1)" />
-        <item itemvalue="JUnit.ProductControllerIT" />
-        <item itemvalue="JUnit.ProductControllerIT.addProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -450,7 +441,7 @@
       <option name="presentableId" value="Default" />
       <updated>1560266600391</updated>
       <workItem from="1560266610970" duration="285000" />
-      <workItem from="1560267494215" duration="16091000" />
+      <workItem from="1560267494215" duration="16666000" />
     </task>
     <servers />
   </component>
@@ -487,7 +478,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16376000" />
+    <option name="totallyTimeSpent" value="16951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1431" y="-4" width="1301" height="772" extended-state="6" />
@@ -510,7 +501,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32935917" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32884902" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32884902" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32884902" />
@@ -746,8 +737,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/controller/ProductControllerUT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+        <state relative-caret-position="174">
+          <caret line="67" column="75" selection-start-line="67" selection-start-column="75" selection-end-line="67" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#858#859#0" expanded="true" />
