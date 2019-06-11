@@ -1,0 +1,17 @@
+server:
+  port: 8600
+
+spring:
+  application:
+    name: product-service
+
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/product
+    username: root
+    password: akram
+
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
