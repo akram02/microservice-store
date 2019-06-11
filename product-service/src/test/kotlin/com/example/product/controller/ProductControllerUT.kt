@@ -31,9 +31,6 @@ class ProductControllerUT {
     @MockBean
     lateinit var productService: ProductService
 
-    @InjectMocks
-    lateinit var productController: ProductController
-
     @Before
     fun setUp() {
         MockitoAnnotations.initMocks(this)
