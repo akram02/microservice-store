@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ca7052-882b-4642-96a2-32103dacdb46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/example/product/controller/ProductControllerUT.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/example/product/AllTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/example/product/DatabaseHealthTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/example/product/IntegrationTestSuite.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/example/product/UnitTestSuite.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/example/product/repository/ProductRepositoryIT.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/example/product/repository/ProductRepositoryUT.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test-datasets.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/example/product/controller/ProductControllerUT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/product/model/Product.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/product/model/Product.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/product/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/product/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/example/product/ProductServiceApplicationTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/example/product/ProductServiceApplicationTests.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -33,10 +43,85 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle.kts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/IntegrationTestSuite.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/UnitTestSuite.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/test-datasets.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/DatabaseHealthTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/ProductServiceApplicationTests.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="e#29#202#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/AllTests.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/controller/ProductControllerIT.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
               <folding>
                 <element signature="e#40#441#0" expanded="true" />
               </folding>
@@ -45,30 +130,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/service/ProductServiceIT.kt">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/repository/ProductRepositoryUT.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/controller/ProductControllerUT.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="74" column="15" lean-forward="true" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/product/model/Product.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="20">
+              <caret line="37" selection-start-line="37" selection-start-column="2" selection-end-line="41" selection-end-column="7" />
               <folding>
-                <element signature="e#35#89#0" expanded="true" />
+                <element signature="e#40#1138#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,6 +154,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>REST request to get all Products</find>
+      <find>CUSTOMER_CONTACT</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -95,20 +163,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle.kts" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/product/ProductRepository.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/product/model/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/product/model/Product.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/service/ProductServiceIT.kt" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/product/domain/CustomerContact.java" />
         <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/service/ContactsManagementServiceUnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/product/service/ContactsManagementService.java" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/product/repository/CustomerContactRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/product/repository/ProductRepository.java" />
         <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/service/ProductServiceUT.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/product/vm/ProductVM.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/product/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/service/ProductServiceUT.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/controller/ProductControllerIT.java" />
         <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/controller/ProductControllerIT.kt" />
@@ -118,6 +180,29 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/example/product/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/controller/ProductControllerUT.java" />
         <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/controller/ProductControllerUT.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/repository/ProductRepositoryIT.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/test-datasets.xml" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/repository/ProductRepositoryIT.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/product/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/product/model/Product.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/product/model/CustomerContact.java" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/product/repository/CustomerContactRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/repository/CustomerContactRepositoryDbUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/repository/ProductRepositoryUT.java" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/example/product/repository/ProductRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/repository/ProductRepositoryUT.kt" />
+        <option value="$PROJECT_DIR$/build.gradle.kts" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/IntegrationTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/UnitTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/IntegrationTestSuite.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/UnitTestSuite.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/DatabaseHealteTest.java" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/DatabaseHealthTest.java" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/AllTests.java" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/AllTests.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/DatabaseHealthTest.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/example/product/ProductServiceApplicationTests.kt" />
       </list>
     </option>
   </component>
@@ -133,6 +218,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,16 +340,12 @@
               <item name="product-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,6 +356,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -282,10 +366,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.product.repository" />
+      <recent name="com.example.product.model" />
       <recent name="com.example.product.controller" />
       <recent name="com.example.product.service" />
-      <recent name="com.example.product.repository" />
       <recent name="com.example.product.domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -300,15 +388,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProductControllerUT">
-    <configuration name="All in product-service.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="product-service.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AllTests">
     <configuration name="All in product-service.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="product-service.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -317,22 +397,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductControllerUT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="product-service.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.product.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.product.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.example.product.controller.ProductControllerUT" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductControllerUT.processSubmittedProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AllTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="product-service.test" />
       <extension name="coverage">
         <pattern>
@@ -340,26 +405,55 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.product.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.example.product.controller.ProductControllerUT" />
-      <option name="METHOD_NAME" value="processSubmittedProduct" />
+      <option name="PACKAGE_NAME" value="com.example.product" />
+      <option name="MAIN_CLASS_NAME" value="com.example.product.AllTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseHealthTest.dbConnectionIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product-service.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.product" />
+      <option name="MAIN_CLASS_NAME" value="com.example.product.DatabaseHealthTest" />
+      <option name="METHOD_NAME" value="dbConnectionIsOk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductControllerUT.processSubmittedProductReturnNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegrationTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="product-service.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.product.controller.*" />
+          <option name="PATTERN" value="com.example.product.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.product.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.example.product.controller.ProductControllerUT" />
-      <option name="METHOD_NAME" value="processSubmittedProductReturnNull" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.example.product" />
+      <option name="MAIN_CLASS_NAME" value="com.example.product.IntegrationTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product-service.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.product" />
+      <option name="MAIN_CLASS_NAME" value="com.example.product.UnitTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -373,11 +467,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductControllerUT" />
-        <item itemvalue="JUnit.ProductControllerUT.processSubmittedProductReturnNull" />
-        <item itemvalue="JUnit.ProductControllerUT.processSubmittedProduct" />
+        <item itemvalue="JUnit.AllTests" />
         <item itemvalue="JUnit.All in product-service.test" />
-        <item itemvalue="JUnit.All in product-service.test (1)" />
+        <item itemvalue="JUnit.DatabaseHealthTest.dbConnectionIsOk" />
+        <item itemvalue="JUnit.UnitTestSuite" />
+        <item itemvalue="JUnit.IntegrationTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -392,49 +486,50 @@
       <option name="presentableId" value="Default" />
       <updated>1560266600391</updated>
       <workItem from="1560266610970" duration="285000" />
-      <workItem from="1560267494215" duration="16949000" />
+      <workItem from="1560267494215" duration="25400000" />
+      <workItem from="1560328918741" duration="3781000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProductControllerUT_processSubmittedProduct - 2019.06.12 at 03h 14m 35s.xml">
-      <configuration name="ProductControllerUT.processSubmittedProduct" configurationId="JUnit" />
+    <history-entry file="ProductRepositoryUT_findByName - 2019.06.12 at 15h 16m 40s.xml">
+      <configuration name="ProductRepositoryUT.findByName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductControllerUT_processSubmittedProduct - 2019.06.12 at 03h 16m 28s.xml">
-      <configuration name="ProductControllerUT.processSubmittedProduct" configurationId="JUnit" />
+    <history-entry file="ProductRepositoryUT_findByName - 2019.06.12 at 15h 17m 54s.xml">
+      <configuration name="ProductRepositoryUT.findByName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductControllerUT_processSubmittedProduct - 2019.06.12 at 03h 18m 04s.xml">
-      <configuration name="ProductControllerUT.processSubmittedProduct" configurationId="JUnit" />
+    <history-entry file="ProductRepositoryUT_findByName - 2019.06.12 at 15h 20m 50s.xml">
+      <configuration name="ProductRepositoryUT.findByName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductControllerUT_processSubmittedProduct - 2019.06.12 at 03h 32m 53s.xml">
-      <configuration name="ProductControllerUT.processSubmittedProduct" configurationId="JUnit" />
+    <history-entry file="ProductRepositoryUT - 2019.06.12 at 15h 21m 00s.xml">
+      <configuration name="ProductRepositoryUT" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductControllerUT_processSubmittedProduct - 2019.06.12 at 03h 33m 24s.xml">
-      <configuration name="ProductControllerUT.processSubmittedProduct" configurationId="JUnit" />
+    <history-entry file="ProductRepositoryUT - 2019.06.12 at 15h 21m 20s.xml">
+      <configuration name="ProductRepositoryUT" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_product-service_test - 2019.06.12 at 03h 33m 42s.xml">
-      <configuration name="All in product-service.test" configurationId="JUnit" />
+    <history-entry file="ProductRepositoryUT_findByName - 2019.06.12 at 15h 27m 52s.xml">
+      <configuration name="ProductRepositoryUT.findByName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductControllerUT_processSubmittedProduct - 2019.06.12 at 03h 35m 59s.xml">
-      <configuration name="ProductControllerUT.processSubmittedProduct" configurationId="JUnit" />
+    <history-entry file="IntegrationTestSuite - 2019.06.12 at 15h 32m 04s.xml">
+      <configuration name="IntegrationTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductControllerUT_processSubmittedProductReturnNull - 2019.06.12 at 04h 10m 15s.xml">
-      <configuration name="ProductControllerUT.processSubmittedProductReturnNull" configurationId="JUnit" />
+    <history-entry file="UnitTestSuite - 2019.06.12 at 15h 33m 50s.xml">
+      <configuration name="UnitTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductControllerUT_processSubmittedProductReturnNull - 2019.06.12 at 04h 11m 07s.xml">
-      <configuration name="ProductControllerUT.processSubmittedProductReturnNull" configurationId="JUnit" />
+    <history-entry file="DatabaseHealthTest_dbConnectionIsOk - 2019.06.12 at 15h 40m 39s.xml">
+      <configuration name="DatabaseHealthTest.dbConnectionIsOk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductControllerUT - 2019.06.12 at 04h 14m 08s.xml">
-      <configuration name="ProductControllerUT" configurationId="JUnit" />
+    <history-entry file="AllTests - 2019.06.12 at 15h 42m 09s.xml">
+      <configuration name="AllTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17234000" />
+    <option name="totallyTimeSpent" value="29466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1431" y="-4" width="1301" height="772" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.1091314" weight="0.25338647" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.1091314" visible="true" weight="0.25338647" />
       <window_info id="Structure" order="1" sideWeight="0.8908686" side_tool="true" weight="0.25338647" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -451,14 +546,13 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32935917" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32884902" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32884902" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32884902" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32884902" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32988048" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -470,12 +564,16 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32988048" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/product_service$AllTests.ic" NAME="AllTests Coverage Results" MODIFIED="1560332721696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.product.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/product_service$ProductControllerUT_processSubmittedProduct.ic" NAME="ProductControllerUT.processSubmittedProduct Coverage Results" MODIFIED="1560282225076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.example.product.controller.*</FILTER>
     </SUITE>
@@ -492,13 +590,6 @@
     <entry file="file://$PROJECT_DIR$/product-service.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle.kts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.8/1aa07070912b2caee846638641606f3b2f1f440a/lombok-1.18.8-sources.jar!/lombok/extern/slf4j/Slf4j.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
@@ -506,50 +597,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/service/ContactsManagementServiceUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/product/service/ContactsManagementService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/product/repository/CustomerContactRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="47" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/product/domain/CustomerContact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/service/ContactsManagementServiceUnitTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/product/service/ContactsManagementService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/product/domain/CustomerContact.java" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/product/ProductServiceApplication.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -557,57 +607,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/product/repository/ProductRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/ProductServiceApplicationTests.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#29#202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/product/vm/ProductVM.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/service/ProductServiceIT.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/product/model/Product.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="e#35#89#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/controller/ProductControllerIT.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding>
-            <element signature="e#40#441#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -629,32 +632,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/product/TestUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/product/TestUtil.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.8/f66792d499a6fea6c7a743558f940e0ebf775ce3/jackson-databind-2.9.8-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-101">
           <caret line="3237" column="18" selection-start-line="3237" selection-start-column="18" selection-end-line="3237" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/product/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,10 +650,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.1.7.RELEASE/460a45ef103dc40e60240c5112df2ffa8ecbf94f/spring-test-5.1.7.RELEASE-sources.jar!/org/springframework/test/web/servlet/MockMvc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="151" column="25" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/2.1.5.RELEASE/e55241ea53f6235709f3fdef3a4b715c92d39146/spring-boot-test-autoconfigure-2.1.5.RELEASE.jar!/org/springframework/boot/test/autoconfigure/web/servlet/MockMvcAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/2.1.8.RELEASE/b1c7c71e7e3eea24a59cfdbc974d0ed555d02cae/spring-data-commons-2.1.8.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/service/ProductServiceIT.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#37#339#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/controller/ProductControllerUT.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.dbunit/dbunit/2.5.0/79f97e8c6f5d44003580744fa2d136fd8652ed27/dbunit-2.5.0-sources.jar!/org/dbunit/dataset/OrderedTableNameMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3000">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/product/model/CustomerContact.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/product/repository/CustomerContactRepository.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.dbunit/dbunit/2.6.0/cd281a8920836e31b05cf459e29339534ffcbe6c/dbunit-2.6.0-sources.jar!/org/dbunit/dataset/OrderedTableNameMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="197" column="18" selection-start-line="197" selection-start-column="18" selection-end-line="197" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/repository/CustomerContactRepositoryDbUnitTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/product/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/product/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        <state relative-caret-position="560">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#691#692#0" expanded="true" />
@@ -680,17 +727,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.1.7.RELEASE/460a45ef103dc40e60240c5112df2ffa8ecbf94f/spring-test-5.1.7.RELEASE-sources.jar!/org/springframework/test/web/servlet/MockMvc.java">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/product/model/Product.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="151" column="25" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
+        <state relative-caret-position="120">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#35#89#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/controller/ProductControllerUT.kt">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.springtestdbunit/spring-test-dbunit/1.2.0/a55ad264ec3fea5fe60fede09f1b4798f9ff38c9/spring-test-dbunit-1.2.0-sources.jar!/com/github/springtestdbunit/annotation/DatabaseSetup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="74" column="15" lean-forward="true" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="15" />
+        <state relative-caret-position="139">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/example/product/repository/ProductRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/repository/ProductRepositoryIT.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-166">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/repository/ProductRepositoryUT.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="37" selection-start-line="37" selection-start-column="2" selection-end-line="41" selection-end-column="7" />
+          <folding>
+            <element signature="e#40#1138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle.kts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/controller/ProductControllerIT.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding>
+            <element signature="e#40#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/test-datasets.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/AllTests.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/DatabaseHealthTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/IntegrationTestSuite.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/UnitTestSuite.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/example/product/ProductServiceApplicationTests.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#29#202#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

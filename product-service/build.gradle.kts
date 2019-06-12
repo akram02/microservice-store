@@ -42,6 +42,8 @@ dependencies {
     runtimeOnly("mysql:mysql-connector-java")
     annotationProcessor("org.projectlombok:lombok")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    testImplementation("com.github.springtestdbunit:spring-test-dbunit:1.2.0")
+//    testImplementation("org.dbunit:dbunit:2.5.0")
 }
 
 dependencyManagement {
