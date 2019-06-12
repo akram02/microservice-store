@@ -16,6 +16,3 @@ spring:
         dialect: org.hibernate.dialect.MySQLDialect
 
 
-catalog:
-  sample:
-    data: Hello Worldss !!
