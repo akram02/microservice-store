@@ -1,0 +1,10 @@
+server:
+  port: 8881
+
+security:
+  jwt:
+    uri: "/auth/**"
+    expiration: "#{24*60*60}"
+    header: "Authorization"
+    prefix: "Bearer "
+    secret: "JwtSecret"
